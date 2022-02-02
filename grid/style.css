@@ -1,0 +1,80 @@
+.container{
+    margin: 0;
+    height: 500px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    background-color: rgb(185, 139, 53);
+    color: black;
+}
+.block1{
+    background-color: burlywood;
+    border: 1px solid orange;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.item_a{
+    height: 33%;
+    background-color: wheat;
+    border: 1px solid yellow;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.block2{
+    background-color: yellowgreen;
+    border: 1px solid orange;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.block3{
+    background-color: yellowgreen;
+    border: 1px solid orange;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.block4{
+    background-color: yellowgreen;
+    border: 1px solid orange;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.block5{
+    background-color: yellowgreen;
+    border: 1px solid orange;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.block6{
+    background-color: wheat;
+    border: 1px solid orange;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding-left: 20px;
+    padding-top: 20px;
+}
